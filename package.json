@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "postinstall": "prisma generate",
-    "vercel-build": "npx prisma migrate deploy"
+    "vercel-build": "npx prisma generate deploy"
   },
   "author": "",
   "license": "ISC",
